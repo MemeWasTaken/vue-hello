@@ -13,9 +13,9 @@
         <input v-model="message">
         <br>
         <br>
-        <img v-bind:src="linkImg" alt="">
+        <img :src="linkImg" alt="">
         <span>{{numProd}}</span>
-        <button v-on:click="numProd += 1">add 1</button>
+        <button @click="numProd += 1">add 1</button>
     </div>
     <script src="script.js"></script>
 </body>
